@@ -2,7 +2,7 @@
 # Step By Step: Manually deploy the web application to Azure
 
 ## Locally build and run the web application
-1. Clone the ["GDBC-website"] (https://github.com/aspnet/MusicStore) git repo. You can choose to do this with Visual Studio or the command line<br>
+1. Clone the [GDBC-website](https://github.com/karthikeyanVK/GDBC-Website) git repo. You can choose to do this with Visual Studio or the command line<br>
 [See instructions on MSDN](https://docs.microsoft.com/en-us/vsts/git/tutorial/clone?view=vsts&tabs=command-line#clone-from-visual-studio-team-services--team-foundation-server)
 2. Open the solution in Visual Studio from the location you cloned the repository to.
 3. Change the web.config of the MVCMusicStore project to point to your Azure SQL Server database. Don't forget to replace TEAMNAME and ENVIRONMENT name with you actual values.
